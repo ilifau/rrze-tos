@@ -124,6 +124,12 @@ class Options {
 			),
 
 
+			'imprint_webmaster_fax'=> array(
+			    'title'	=>  __('Fax', 'rrze-tos'),
+			    'section'	=> 'rrze_tos_section_imprint_webmaster',
+			    'type'	=> 'inputTextCallback',
+			    'default'	=> '',
+			),
 
 
 			'imprint_responsible_name'=> array(
