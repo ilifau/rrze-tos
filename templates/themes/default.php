@@ -17,6 +17,7 @@ if ( is_plugin_active( 'rrze-elements/rrze-elements.php' ) ) {
 ?>
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
+		<?php echo '<h1>' . $title. '</h1>'; ?>
 		     <div id="rrze-tos">
 			<?php echo $content; ?>
 		    </div>
