@@ -732,7 +732,7 @@ class Settings {
             <label>
                 <input name="<?php printf('%1$s[%2$s][]', esc_attr($this->optionName), esc_attr($postname)); ?>"
 		    type="checkbox" value="<?php echo esc_attr($_k); ?>" 
-                    <?php if (isset($oldval)): checked( in_array( $_k, $oldval ), 1); endif; ?>
+                    <?php if (isset($oldval)): checked( in_array( $_k, array($oldval) ), 1); endif; ?>
                 >
                 <?php echo esc_attr($_v); ?>	
             </label>
